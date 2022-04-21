@@ -8,8 +8,13 @@ namespace Com.Core.Dotsafe.Domain
 {
     public class Contribution
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string name { get; set; }
 
+        public User User { get; set; }
+
+        public Techno Techno { get; set; }
+
+        public Project Project { get; set; }
     }
 }

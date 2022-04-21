@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Core.Dotsafe.UI", "Com.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{42DE7D73-A2BE-4927-AB4C-0A4493C710B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Core.Dotsafe.Domain", "..\libs\Com.Core.Dotsafe.Domain\Com.Core.Dotsafe.Domain.csproj", "{452709B6-A649-40A6-8A82-BDF19D6E690B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.Core.Dotsafe.Domain", "..\libs\Com.Core.Dotsafe.Domain\Com.Core.Dotsafe.Domain.csproj", "{452709B6-A649-40A6-8A82-BDF19D6E690B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Core.Dotsafe.Infrastructure", "..\libs\Com.Core.Dotsafe.Infrastructure\Com.Core.Dotsafe.Infrastructure.csproj", "{2092184E-B335-4794-AC0C-4743FF6503BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Core.Dotsafe.Domain.Migrations", "..\libs\Com.Core.Dotsafe.Domain.Migrations\Com.Core.Dotsafe.Domain.Migrations.csproj", "{BF212A5A-A562-4CAD-A6C8-17445312A3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Core.Dotsafe.Framework", "..\libs\Com.Core.Dotsafe.Framework\Com.Core.Dotsafe.Framework.csproj", "{BE459AE1-C702-4FF7-8D9F-48FB494124B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +29,27 @@ Global
 		{452709B6-A649-40A6-8A82-BDF19D6E690B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452709B6-A649-40A6-8A82-BDF19D6E690B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452709B6-A649-40A6-8A82-BDF19D6E690B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2092184E-B335-4794-AC0C-4743FF6503BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2092184E-B335-4794-AC0C-4743FF6503BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2092184E-B335-4794-AC0C-4743FF6503BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2092184E-B335-4794-AC0C-4743FF6503BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF212A5A-A562-4CAD-A6C8-17445312A3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF212A5A-A562-4CAD-A6C8-17445312A3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF212A5A-A562-4CAD-A6C8-17445312A3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF212A5A-A562-4CAD-A6C8-17445312A3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE459AE1-C702-4FF7-8D9F-48FB494124B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE459AE1-C702-4FF7-8D9F-48FB494124B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE459AE1-C702-4FF7-8D9F-48FB494124B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE459AE1-C702-4FF7-8D9F-48FB494124B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{452709B6-A649-40A6-8A82-BDF19D6E690B} = {42DE7D73-A2BE-4927-AB4C-0A4493C710B2}
+		{2092184E-B335-4794-AC0C-4743FF6503BA} = {42DE7D73-A2BE-4927-AB4C-0A4493C710B2}
+		{BF212A5A-A562-4CAD-A6C8-17445312A3A8} = {42DE7D73-A2BE-4927-AB4C-0A4493C710B2}
+		{BE459AE1-C702-4FF7-8D9F-48FB494124B0} = {42DE7D73-A2BE-4927-AB4C-0A4493C710B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC132594-3EA6-4B20-988B-489502678D7C}

@@ -8,8 +8,9 @@ namespace Com.Core.Dotsafe.Domain
 {
     public class Techno
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string name { get; set; }
+        public List<Contribution> Contributions { get; set; }
 
     }
 }
